@@ -29,11 +29,12 @@ public class Tugas2JB7{
                     }
                 }
                 System.out.println("Kendaraan jenis"+ jenis + " telah terparkir selama " +  durasi  + " jam");
-                System.out.print("total biaya parkir kendaraan adalah" + Total);
+                System.out.println("total biaya parkir kendaraan adalah" + Total);
                 
             }
         
         } while (true);
-        
+
+        in18.close();
     }
 }
